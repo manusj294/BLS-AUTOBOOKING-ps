@@ -1,0 +1,199 @@
+{
+  "visaTypes": [
+    {
+      "id": "2733",
+      "name": "National Visa",
+      "code": "NATIONAL_VISA",
+      "appointmentSource": null
+    },
+    {
+      "id": "2734",
+      "name": "Schengen Visa",
+      "code": "SCHENGEN_VISA",
+      "appointmentSource": null
+    },
+    {
+      "id": "2735",
+      "name": "Schengen visa (Estonia)",
+      "code": "SCHENGEN_VISA_ESTONIA",
+      "appointmentSource": "WEB_BLS"
+    },
+    {
+      "id": "2736",
+      "name": "First application / première demande",
+      "code": "SCHENGEN_VISA",
+      "appointmentSource": "WEB_BLS"
+    },
+    {
+      "id": "2737",
+      "name": "Visa renewal / renouvellement de visa",
+      "code": "SCHENGEN_VISA_EXISTING",
+      "appointmentSource": "WEB_BLS"
+    }
+  ],
+  "visaSubTypes": [
+    {
+      "id": "1886",
+      "name": "Schengen Visa",
+      "typeId": "2734",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA"
+    },
+    {
+      "id": "1887",
+      "name": "Tourism",
+      "typeId": "2734",
+      "code": "WEB_BLS",
+      "subCode": "TOURISM"
+    },
+    {
+      "id": "1888",
+      "name": "Schengen visa (Estonia)",
+      "typeId": "2735",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ESTONIA"
+    },
+    {
+      "id": "1889",
+      "name": "Oran 1",
+      "typeId": "2736",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ORAN_ONE"
+    },
+    {
+      "id": "1890",
+      "name": "Oran 2",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ORAN_TWO"
+    },
+    {
+      "id": "1891",
+      "name": "Oran 3",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ORAN_THREE"
+    },
+    {
+      "id": "1892",
+      "name": "Family reunification visa",
+      "typeId": "2733",
+      "code": "WEB_BLS",
+      "subCode": "FAMILY_REUNIFICATION"
+    },
+    {
+      "id": "1893",
+      "name": "Oran 4",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ORAN_FOUR"
+    },
+    {
+      "id": "1894",
+      "name": "ALG 1",
+      "typeId": "2736",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ALG_ONE"
+    },
+    {
+      "id": "1895",
+      "name": "ALG 2",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ALG_TWO"
+    },
+    {
+      "id": "1896",
+      "name": "ALG 3",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ALG_THREE"
+    },
+    {
+      "id": "1897",
+      "name": "ALG 4",
+      "typeId": "2737",
+      "code": "WEB_BLS",
+      "subCode": "SCHENGEN_VISA_ALG_FOUR"
+    },
+    {
+      "id": "1898",
+      "name": "FAMILY GROUP",
+      "typeId": "2734",
+      "code": "WEB_BLS",
+      "subCode": "FAMILY_GROUP"
+    },
+    {
+      "id": "1899",
+      "name": "Study visa",
+      "typeId": "2733",
+      "code": "WEB_BLS",
+      "subCode": "STUDY_VISA"
+    }
+  ],
+  "locations": [
+    {
+      "id": "23861",
+      "name": "Oran",
+      "code": "ORAN",
+      "visaTypeIds": ["2733", "2736", "2737"],
+      "visaSubTypeIds": ["1889", "1890", "1891", "1892", "1893", "1899"],
+      "missionId": "7b831dab-5bed-4f9e-9e13-a301dfce2d77"
+    },
+    {
+      "id": "23862",
+      "name": "Algiers",
+      "code": "ALGIERS",
+      "visaTypeIds": ["2734", "2735", "2736", "2737"],
+      "visaSubTypeIds": ["1888", "1894", "1895", "1896", "1897", "1898"],
+      "missionId": "ec336bcf-29fe-4d76-90f1-a7ae2d74d78b"
+    }
+  ],
+  "applicationCategories": [
+    {
+      "id": "1572",
+      "name": "Normal",
+      "code": "CATEGORY_NORMAL"
+    },
+    {
+      "id": "1573",
+      "name": "Premium",
+      "code": "CATEGORY_PREMIUM"
+    },
+    {
+      "id": "1574",
+      "name": "Prime Time",
+      "code": "PRIME_TIME"
+    }
+  ],
+  "applicantGroups": [
+    {
+      "id": "3174",
+      "name": "2 Members"
+    },
+    {
+      "id": "3175",
+      "name": "3 Members"
+    },
+    {
+      "id": "3176",
+      "name": "4 Members"
+    },
+    {
+      "id": "3177",
+      "name": "5 Members"
+    },
+    {
+      "id": "3178",
+      "name": "6 Members"
+    },
+    {
+      "id": "3179",
+      "name": "7 Members"
+    },
+    {
+      "id": "3180",
+      "name": "8 Members"
+    }
+  ]
+}

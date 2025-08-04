@@ -1,0 +1,53 @@
+{
+  "name": "BLS Visa Booking Assistant",
+  "short_name": "BLS Assistant",
+  "description": "Automated appointment booking for BLS Spain Algeria with smart monitoring",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Application",
+      "short_name": "Apply",
+      "description": "Start a new visa application",
+      "url": "/?tab=applicant",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Monitor Bookings",
+      "short_name": "Monitor",
+      "description": "Check booking availability",
+      "url": "/?tab=monitor",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr"
+}

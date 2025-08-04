@@ -1,0 +1,437 @@
+{
+  "formTitle": "Algeria BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Algeria",
+  "formMetadata": {
+    "description": "Form for applying for a Spain visa through the BLS Spain Visa Application Centre in Algeria",
+    "languageOptions": ["en-US", "Español", "Français", "عربي"],
+    "defaultLanguage": "en-US",
+    "url": "/DZA/account/ChangeLanguage",
+    "submissionEndpoint": "/DZA/Application/SaveApplicantDetails"
+  },
+  "countries": [
+    {
+      "id": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+      "name": "Algeria",
+      "code": "DZA",
+      "flag": "🇩🇿"
+    },
+    {
+      "id": "1bdacc6c-cb25-4142-b210-bb058f4ffecf",
+      "name": "Spain",
+      "code": "ESP",
+      "flag": "🇪🇸"
+    },
+    {
+      "id": "france-001",
+      "name": "France",
+      "code": "FRA",
+      "flag": "🇫🇷"
+    },
+    {
+      "id": "germany-001",
+      "name": "Germany",
+      "code": "DEU",
+      "flag": "🇩🇪"
+    },
+    {
+      "id": "italy-001",
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "🇮🇹"
+    },
+    {
+      "id": "netherlands-001",
+      "name": "Netherlands",
+      "code": "NLD",
+      "flag": "🇳🇱"
+    },
+    {
+      "id": "belgium-001",
+      "name": "Belgium",
+      "code": "BEL",
+      "flag": "🇧🇪"
+    },
+    {
+      "id": "portugal-001",
+      "name": "Portugal",
+      "code": "PRT",
+      "flag": "🇵🇹"
+    },
+    {
+      "id": "austria-001",
+      "name": "Austria",
+      "code": "AUT",
+      "flag": "🇦🇹"
+    },
+    {
+      "id": "switzerland-001",
+      "name": "Switzerland",
+      "code": "CHE",
+      "flag": "🇨🇭"
+    }
+  ],
+  "locations": [
+    {
+      "id": "algiers",
+      "name": "Algiers",
+      "code": "ALG",
+      "address": "BLS International Services Algeria, Algiers Center",
+      "phone": "+213 21 XX XX XX",
+      "workingHours": "08:00 - 16:00"
+    },
+    {
+      "id": "oran",
+      "name": "Oran",
+      "code": "ORN",
+      "address": "BLS International Services Algeria, Oran Center",
+      "phone": "+213 41 XX XX XX",
+      "workingHours": "08:00 - 16:00"
+    },
+    {
+      "id": "constantine",
+      "name": "Constantine",
+      "code": "CST",
+      "address": "BLS International Services Algeria, Constantine Center",
+      "phone": "+213 31 XX XX XX",
+      "workingHours": "08:00 - 16:00"
+    },
+    {
+      "id": "annaba",
+      "name": "Annaba",
+      "code": "AAE",
+      "address": "BLS International Services Algeria, Annaba Center",
+      "phone": "+213 38 XX XX XX",
+      "workingHours": "08:00 - 16:00"
+    }
+  ],
+  "formFields": {
+    "personal": [
+      "Surname",
+      "FirstName",
+      "LastName",
+      "PreviousName",
+      "DateOfBirth",
+      "PlaceOfBirth",
+      "CountryOfBirthId",
+      "CurrentNationalityId",
+      "OriginalNationalityId",
+      "GenderId",
+      "MaritalStatusId",
+      "IsMinor"
+    ],
+    "minorDetails": [
+      "MinorParentSurname",
+      "MinorParentFirstName",
+      "MinorParentLastName",
+      "MinorParentNationalityId",
+      "MinorParentAddress"
+    ],
+    "passport": [
+      "NationalIdentityNumber",
+      "PassportType",
+      "PassportNo",
+      "IssueDate",
+      "ExpiryDate",
+      "IssuePlace",
+      "IssueCountryId",
+      "TravelDate"
+    ],
+    "address": [
+      "HomeAddressLine1",
+      "HomeAddressLine2",
+      "HomeAddressCountryId",
+      "HomeAddressState",
+      "HomeAddressCity",
+      "HomeAddressPostalCode",
+      "HomeAddressContactNumber",
+      "HasOtherResidenceship"
+    ],
+    "otherResidenceship": ["OtherResidenceshipPermitNumber", "OtherResidenceshipPermitValidUntill"],
+    "employer": ["EmployerName", "EmployerPhone", "EmployerAddress", "CurrentOccupationId"],
+    "travel": [
+      "PurposeOfJourneyId",
+      "MemberStateDestinationId",
+      "MemberStateSecondDestinationId",
+      "MemberStateFirstEntryId",
+      "NumberOfEntriesRequested",
+      "IntendedStayDuration",
+      "IsVisaIssuedBefore"
+    ],
+    "previousVisa": [
+      "PreviousVisaNumber",
+      "PreviousVisaValidFrom",
+      "PreviousVisaValidTo",
+      "PreviousVisaIssuedCountryId"
+    ],
+    "fingerprint": ["PreviousFingerPrintStatus", "PreviousFingerPrintDate"],
+    "destination": [
+      "FinalDestinationIssuedByCountryId",
+      "FinalDestinationValidFromDate",
+      "FinalDestinationValidToDate",
+      "IntendedDateOfArrival",
+      "IntendedDateOfDeparture"
+    ],
+    "inviting": [
+      "BlsInvitingAuthority",
+      "InvitingAuthorityName",
+      "InvitingCountryId",
+      "InvitingCity",
+      "InvitingZipCode",
+      "InvitingAddress",
+      "InvitingEmail",
+      "InvitingContactNo",
+      "InvitingFaxNo",
+      "InvitingContactName",
+      "InvitingContactSurname",
+      "InvitingContactCountryId"
+    ]
+  },
+  "dropdownData": {
+    "genderData": [
+      {
+        "id": "male",
+        "name": "Male"
+      },
+      {
+        "id": "female",
+        "name": "Female"
+      }
+    ],
+    "maritalStatusData": [
+      {
+        "id": "single",
+        "name": "Single"
+      },
+      {
+        "id": "married",
+        "name": "Married"
+      },
+      {
+        "id": "divorced",
+        "name": "Divorced"
+      },
+      {
+        "id": "widowed",
+        "name": "Widowed"
+      }
+    ],
+    "passportTypeData": [
+      {
+        "id": "0a152f62-b7b2-49ad-893e-b41b15e2bef3",
+        "name": "Ordinary Passport"
+      },
+      {
+        "id": "diplomatic",
+        "name": "Diplomatic Passport"
+      },
+      {
+        "id": "service",
+        "name": "Service Passport"
+      }
+    ],
+    "occupationData": [
+      {
+        "id": "student",
+        "name": "Student"
+      },
+      {
+        "id": "employee",
+        "name": "Employee"
+      },
+      {
+        "id": "self-employed",
+        "name": "Self-employed"
+      },
+      {
+        "id": "unemployed",
+        "name": "Unemployed"
+      },
+      {
+        "id": "retired",
+        "name": "Retired"
+      }
+    ],
+    "journeyPurposeData": [
+      {
+        "id": "82a413f6-0e05-4ac0-8224-61432e8dfa44",
+        "name": "Tourism"
+      },
+      {
+        "id": "business",
+        "name": "Business"
+      },
+      {
+        "id": "family",
+        "name": "Family Visit"
+      },
+      {
+        "id": "study",
+        "name": "Study"
+      },
+      {
+        "id": "medical",
+        "name": "Medical Treatment"
+      },
+      {
+        "id": "transit",
+        "name": "Transit"
+      },
+      {
+        "id": "official",
+        "name": "Official Visit"
+      },
+      {
+        "id": "cultural",
+        "name": "Cultural/Sports Event"
+      }
+    ],
+    "schengenCountryData": [
+      {
+        "id": "1bdacc6c-cb25-4142-b210-bb058f4ffecf",
+        "name": "Spain",
+        "code": "ESP"
+      },
+      {
+        "id": "france",
+        "name": "France",
+        "code": "FRA"
+      },
+      {
+        "id": "germany",
+        "name": "Germany",
+        "code": "DEU"
+      },
+      {
+        "id": "italy",
+        "name": "Italy",
+        "code": "ITA"
+      },
+      {
+        "id": "netherlands",
+        "name": "Netherlands",
+        "code": "NLD"
+      },
+      {
+        "id": "belgium",
+        "name": "Belgium",
+        "code": "BEL"
+      },
+      {
+        "id": "portugal",
+        "name": "Portugal",
+        "code": "PRT"
+      },
+      {
+        "id": "austria",
+        "name": "Austria",
+        "code": "AUT"
+      },
+      {
+        "id": "greece",
+        "name": "Greece",
+        "code": "GRC"
+      },
+      {
+        "id": "denmark",
+        "name": "Denmark",
+        "code": "DNK"
+      },
+      {
+        "id": "sweden",
+        "name": "Sweden",
+        "code": "SWE"
+      },
+      {
+        "id": "norway",
+        "name": "Norway",
+        "code": "NOR"
+      },
+      {
+        "id": "finland",
+        "name": "Finland",
+        "code": "FIN"
+      },
+      {
+        "id": "iceland",
+        "name": "Iceland",
+        "code": "ISL"
+      },
+      {
+        "id": "luxembourg",
+        "name": "Luxembourg",
+        "code": "LUX"
+      },
+      {
+        "id": "czech",
+        "name": "Czech Republic",
+        "code": "CZE"
+      },
+      {
+        "id": "poland",
+        "name": "Poland",
+        "code": "POL"
+      },
+      {
+        "id": "hungary",
+        "name": "Hungary",
+        "code": "HUN"
+      },
+      {
+        "id": "slovakia",
+        "name": "Slovakia",
+        "code": "SVK"
+      },
+      {
+        "id": "slovenia",
+        "name": "Slovenia",
+        "code": "SVN"
+      },
+      {
+        "id": "estonia",
+        "name": "Estonia",
+        "code": "EST"
+      },
+      {
+        "id": "latvia",
+        "name": "Latvia",
+        "code": "LVA"
+      },
+      {
+        "id": "lithuania",
+        "name": "Lithuania",
+        "code": "LTU"
+      },
+      {
+        "id": "malta",
+        "name": "Malta",
+        "code": "MLT"
+      }
+    ],
+    "noOfEntriesData": [
+      {
+        "id": "2545f664-6779-43ea-be61-d405908131cd",
+        "name": "Single Entry"
+      },
+      {
+        "id": "multiple",
+        "name": "Multiple Entry"
+      }
+    ]
+  },
+  "fieldDefaults": {
+    "CountryOfBirthId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "CurrentNationalityId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "OriginalNationalityId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "MinorParentNationalityId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "HomeAddressCountryId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "IssueCountryId": "5e44cd63-68f0-41f2-b708-0eb3bf9f4a72",
+    "PassportType": "0a152f62-b7b2-49ad-893e-b41b15e2bef3",
+    "PurposeOfJourneyId": "82a413f6-0e05-4ac0-8224-61432e8dfa44",
+    "MemberStateDestinationId": "1bdacc6c-cb25-4142-b210-bb058f4ffecf",
+    "MemberStateSecondDestinationId": "1bdacc6c-cb25-4142-b210-bb058f4ffecf",
+    "MemberStateFirstEntryId": "1bdacc6c-cb25-4142-b210-bb058f4ffecf",
+    "NumberOfEntriesRequested": "2545f664-6779-43ea-be61-d405908131cd",
+    "IntendedStayDuration": 15,
+    "PreviousFingerPrintStatus": "2",
+    "BlsInvitingAuthority": "0"
+  }
+}
